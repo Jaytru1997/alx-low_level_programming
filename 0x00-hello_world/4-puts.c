@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - returns an int data type
+ * main - Prints String
  * outputs "\"Programming is like building a multilingual puzzle"
  * return value: 0
  */
