@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - outputs to string
  *
  * Description: Prints out "and that piece of art is useful..." without printf
  *
@@ -16,7 +16,7 @@ long syscall = 1;
 long ret = 0;
 __asm__ ("syscall"
 : "=a" (ret)
-: "=a" (syscall),
+: "a" (syscall),
 "D" (fd),
 "S" (s),
 "d" (1));
