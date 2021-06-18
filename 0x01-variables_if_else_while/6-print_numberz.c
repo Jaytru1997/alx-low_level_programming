@@ -9,11 +9,11 @@ int main(void)
 {
 int i = 12;
 
-do
-{
+do{
 putchar(i);
 i++;
-}while (i < 22);
+}
+while (i < 22);
 putchar('\n');
 return (0);
 }
