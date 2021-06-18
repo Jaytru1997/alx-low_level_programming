@@ -1,19 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - prints out all numbers under 
+ * main - prints out all numbers under
  * without using any char variables
  * Return: 0
  */
 int main(void)
 {
-int i = 12;
+int i = 48;
 
-do{
+while (i < 58)
+{
 putchar(i);
 i++;
 }
-while (i < 22);
 putchar('\n');
 return (0);
 }
