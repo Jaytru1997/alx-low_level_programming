@@ -13,7 +13,7 @@ do
 {
 putchar(i);
 i++;
-}while (i < 58);
+}while (i < 22);
 putchar('\n');
 return (0);
 }
