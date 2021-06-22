@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
  * powB - raises the number to power power
@@ -97,7 +98,7 @@ return (sum);
  */
 int main(void)
 {
-putnchar(rangesum(3, 1024, 3) + rangesum(5, 1024, 5));
+printf(rangesum(3, 1024, 3) + rangesum(5, 1024, 5));
 _putchar('\n');
 return (0);
 }
