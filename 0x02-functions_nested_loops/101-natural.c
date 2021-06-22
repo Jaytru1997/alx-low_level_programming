@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "holberton.h"
 /**
  * powB - raises the number to power power
@@ -76,13 +75,13 @@ j--;
 }
 }
 /**
- * rangesum - returns the sum of numbers from start to end with steps
+ * sumr - returns the sum of numbers from start to end with steps
  * @start: the first number
  * @end: the last number
  * @step: the number of steps
  * Return: sum
  */
-int rangesum(int start, int end, int step)
+int sumr(int start, int end, int step)
 {
 int sum = 0, i;
 
@@ -98,7 +97,7 @@ return (sum);
  */
 int main(void)
 {
-printf(rangesum(3, 1024, 3) + rangesum(5, 1024, 5));
+putnchar(sumr(3, 1024, 3) + sumr(5, 1024, 5) - sumr(15, 1024, 15);
 _putchar('\n');
 return (0);
 }
