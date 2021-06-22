@@ -97,7 +97,7 @@ return (sum);
  */
 int main(void)
 {
-putnchar(sumr(3, 1024, 3) + sumr(5, 1024, 5) - sumr(15, 1024, 15));
+putnchar(sumr(3, 1024, 3) + sumr(5, 1024, 5));
 _putchar('\n');
 return (0);
 }
