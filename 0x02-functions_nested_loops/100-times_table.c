@@ -11,7 +11,7 @@ int i, product = 1;
 
 for (i = 0; i < power; i++)
 {
-product = product * base;
+product = product *base;
 }
 return (product);
 }
@@ -41,7 +41,7 @@ return (length);
  */
 void putnchar(int num)
 {
-int length = numLength(num), j = length -1, k , tmp2, digit1;
+int length = numLength(num), j = length - 1, k, tmp2, digit1;
 
 if (num == 0)
 _putchar(48);
