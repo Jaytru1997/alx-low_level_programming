@@ -36,7 +36,7 @@ initial0s = numLength(mx) - 1 - numLength(fib1);
 while (fib1o > 0 && initial0s > 0)
 {
 printf("%i", 0);
-inital0s--;
+initial0s--;
 }
 printf("%lu", fib1);
 next = (fib1 + fib2) % mx;
@@ -49,7 +49,7 @@ if (i != 98)
 printf(", ");
 else
 printf("\n");
-i++
+i++;
 }
 return (0);
 }
