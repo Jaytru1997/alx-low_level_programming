@@ -83,7 +83,7 @@ j--;
  */
 int rangesum(int start, int end, int step)
 {
-int sum  0, i;
+int sum = 0, i;
 
 for (i = start; i < end; i += step)
 {
@@ -98,6 +98,6 @@ return (sum);
 int main(void)
 {
 putnchar(rangesum(3, 1024, 3) + rangesum(5, 1024, 5) - rangesum(15, 1024, 15));
-_putnchar('\n');
+_putchar('\n');
 return (0);
 }
