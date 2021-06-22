@@ -1,4 +1,5 @@
-#include "holberton.h"
+#include <stdio.h>
+
 /**
  * print_to_98 - prints every number from n to 98
  * @n: starting number
