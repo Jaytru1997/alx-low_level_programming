@@ -11,7 +11,7 @@ int i, product = 1;
 
 for (i = 0; i < power; i++)
 {
-product = product * base;
+product = product *base;
 }
 return (product);
 }
@@ -83,4 +83,13 @@ j--;
 }
 }
 }
+}
+/**
+ * print_number - prints out any integer with only _putchar
+ * @n: integer to be printed
+ * Return: 0
+ */
+void print_number(int n)
+{
+printnchar(n);
 }
