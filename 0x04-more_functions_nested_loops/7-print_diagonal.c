@@ -3,7 +3,7 @@
  * print_diagonal - print a diagonal line of  arg length
  * @n: length of line
  */
-ovoid print_diagonal(int n)
+void print_diagonal(int n)
 {
 int i = 0, j;
 
