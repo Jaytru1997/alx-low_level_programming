@@ -62,7 +62,7 @@ while (j >= 0)
 if (num % powB(10, j) == 0 && j != 0)
 {
 _putchar(48 + num / powB(10, j));
-for (k == j; k > 0; k--)
+for (k = j; k > 0; k--)
 {
 _putchar(48);
 }
