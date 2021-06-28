@@ -22,7 +22,7 @@ return (product);
  */
 int numLength(int num)
 {
-int length = o;
+int length = 0;
 
 if (!num)
 {
