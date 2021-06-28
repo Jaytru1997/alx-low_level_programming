@@ -9,7 +9,7 @@ int powB(int base, int power)
 {
 int i, product = 1;
 
-for(i = 0; i < power; i++)
+for (i = 0; i < power; i++)
 {
 product = product *base;
 }
