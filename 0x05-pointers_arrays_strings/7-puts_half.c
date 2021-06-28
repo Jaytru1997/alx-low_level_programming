@@ -16,7 +16,7 @@ length++;
 return (length);
 }
 /**
- * puts_helf - prints the second half of the string
+ * puts_half - prints the second half of the string
  * @str: string
  */
 void puts_half(char *str)
