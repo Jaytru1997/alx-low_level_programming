@@ -20,7 +20,7 @@ return (product);
  * @num: operan number
  * Return: number of digits
  */
-int numLengt(int num)
+int numLength(int num)
 {
 int length = o;
 
