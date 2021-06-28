@@ -17,7 +17,7 @@ return (length);
 }
 /**
  * rev_string - prints the reverse of a string
- * @: string
+ * @s: string
  */
 void rev_string(char *s)
 {
