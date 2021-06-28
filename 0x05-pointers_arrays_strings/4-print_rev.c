@@ -12,7 +12,7 @@ while (*s)
 {
 s++;
 }
-return (s-p);
+return (s - p);
 }
 /**
  * print_rev - prints the reverse of a string
