@@ -9,7 +9,7 @@ int main(void)
 int num;
 
 srand(time(0));
-num = rand();
+num = (rand() * 15 + 1);
 printf("%i\n", num);
 return (0);
 }
