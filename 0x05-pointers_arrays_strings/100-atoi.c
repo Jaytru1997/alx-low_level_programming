@@ -19,7 +19,7 @@ return (0);
  */
 int isDigit(char i)
 {
-return ( i >= '0' && i <= '9');
+return (i >= '0' && i <= '9');
 }
 /**
  * _atoi - converts a string to an integer
@@ -47,5 +47,5 @@ num = num * 10 + mapint(*s);
 }
 s++;
 }
-return (sign * num);
+return (sign *num);
 }
