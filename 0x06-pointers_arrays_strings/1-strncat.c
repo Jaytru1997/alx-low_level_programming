@@ -14,7 +14,7 @@ while (*str)
 str++;
 length++;
 }
-return(length);
+return (length);
 }
 /**
  * _strncat - conctenates two strings
