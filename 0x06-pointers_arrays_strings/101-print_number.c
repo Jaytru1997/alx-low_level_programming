@@ -55,7 +55,8 @@ void printnchar(int n)
 		_putchar('-');
 	}
 	num = n;
-	length = numLength(num), j = length - 1, k, digit1, tmp2;
+	length = numLength(num);
+	j = length - 1;
 	if (num == 0)
 		_putchar(48);
 	else
