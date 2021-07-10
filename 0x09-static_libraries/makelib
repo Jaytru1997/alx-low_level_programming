@@ -1,5 +1,5 @@
 #!/bin/bash
-gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -c *.c
+gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -fno-pic -c *.c
 ar rc libholberton.a *.o
 rm *.o
 ar -t libholberton.a
