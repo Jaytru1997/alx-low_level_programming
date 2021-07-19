@@ -5,7 +5,7 @@
 #include <stdio.h>
 
 /**
- * struct - new struct for dog
+ * struct dog - new struct for dog
  * @name: name of dog
  * @age: age of dog
  * @owner: name of owner
@@ -16,8 +16,9 @@ typedef struct dog
 {
 char *name;
 float age;
-char *owner; 
-}my_dog;
+char *owner;
+}
+my_dog;
 
 int _strlen(char *s);
 void init_dog(struct dog *d, char *name, float age, char *owner);
