@@ -1,5 +1,5 @@
-fndef HOLBERTON_H
-#define HOLBERTON_H
+#ifndef MAIN_H
+#define MAIN_H
  
 #include <stdio.h>
 #include <stdlib.h>
@@ -18,4 +18,4 @@ int get_endianness(void);
 int _strlen(const char *s);
 _Bool isBinary(char);
  
-#endif /* HOLBERTON_H */
+#endif /* MAIN_H */
