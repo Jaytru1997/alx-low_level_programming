@@ -1,4 +1,3 @@
-  
 /*
  * File: 2-append_text_to_file.c
  * Author: Oghenekparobo Onosemuode
