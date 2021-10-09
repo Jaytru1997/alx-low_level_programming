@@ -180,7 +180,7 @@ void shash_table_print(const shash_table_t *ht)
 {
 	if (!ht)
 		return;
-	print_in_order(ht, true);
+	print_in_order(ht, TRUE);
 }
 
 /**
@@ -191,7 +191,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 {
 	if (!ht)
 		return;
-	print_in_order(ht, false);
+	print_in_order(ht, FALSE);
 }
 
 /**
@@ -202,7 +202,7 @@ void shash_table_print_rev(const shash_table_t *ht)
 void print_in_order(const shash_table_t *ht, _Bool in_order)
 {
 	shash_node_t *start;
-	_Bool first = true;
+	int first = TRUE;
 
 	start = in_order
 		? ht->shead
@@ -213,7 +213,7 @@ void print_in_order(const shash_table_t *ht, _Bool in_order)
 		if (!first)
 			printf(", ");
 		printf("'%s': '%s'", start->key, start->value);
-		first = false;
+		first = FALSE;
 		start = in_order
 			? start->snext
 			: start->sprev;
